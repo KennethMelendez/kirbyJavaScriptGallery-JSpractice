@@ -1,0 +1,57 @@
+/*====================GLOBAL CSS=======================*/
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:helvetica;
+}
+
+/*====================LOGO=======================*/
+
+.logo{
+  text-align: center;
+  /*margin:0 auto;*/
+}
+
+.logo img{
+  max-width: 20%;
+  /*margin:0 auto;*/
+}
+
+/*====================GALLERY=======================*/
+.gallery{
+  /*background:url('../images/bg-scene.png');
+  background-size: cover;
+  background-color: pink;*/
+  width:100%;
+  height:100vh;
+}
+
+.gallery:first-child{
+  text-align: center;
+  padding:1rem;
+}
+
+.gallery-scene{
+  text-align: center;
+  padding:1rem;
+}
+
+.gallery-images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:0.2rem;
+}
+
+button{
+  border:none;
+  background-color: rgb(250, 207, 255);
+  padding: 10px 38px;
+  cursor:pointer;
+}
+
+button:hover {
+  background-color:rgb(255, 181, 153);
+}
