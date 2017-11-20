@@ -50,6 +50,9 @@ button{
   background-color: rgb(250, 207, 255);
   padding: 10px 38px;
   cursor:pointer;
+  border-radius:50px;
+  outline:none;
+  color:white;
 }
 
 button:hover {
